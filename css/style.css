@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Mona Sans", sans-serif !important;
+    /* height: 100vh !important; */
+}
+
+/* styling header */
+#headcont{
+    background-color: #E81606;
+    padding: 10px 0px 1px;
+}
+#headcont .container p{
+    color: white !important;
+    font-weight: 500;
+}
+.header img{
+    height: 30px;
+}
+.nav ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav li a:hover{
+    color: #E81606;
+    font-weight: 600;
+}
+/* styling header done */
+
+/* banner */
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(../img/tmkg_banner.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.bancont{
+    color: white;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.bancont h4{
+    font-size: 50px;
+}
+.bancont span{
+    color: #E81606;
+}
+.bancont button{
+    padding: 10px 20px;
+    border-radius: 50px !important;
+    color: #E81606;
+    border: 1px solid #E81606;
+    margin-top: 5%;
+    background-color: white !important;
+}
+/* banner done */
+
+/* content */
+#whatcont{
+    padding-bottom: 5%;
+    background-color: whitesmoke;
+}
+.whatflex{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+.offer{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    width: 30%;
+}
+.offer img{
+    height: 150px;
+    border-radius: 20px;
+}
+.offer p{
+    font-size: 13px;
+}
+.offer h4{
+    font-size: 20px;
+}
+#whycont{
+    padding: 0% 0% 10%;
+    background-color: #E816060A;
+}
+#whycont span{
+    font-weight: bold;
+}
+#whycont h1{
+    color: #E81606;
+}
+.whysum{
+    display: flex;
+    justify-content: center;
+}
+.whyinfo{
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+}
+.whyinfo h6{
+    font-size: 25px;
+    font-weight: bold;
+}
+.whyinfo div{
+    width: 18%;
+}
+.whyitem{
+    align-self: flex-end;
+}
+.whywork{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.whywork span{
+    font-size: 40px;
+}
+.whywork button{
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #E81606;
+    color: white;
+}
+/* content done */
+
+/* footer */
+#foota{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 50px 0px;
+}
+.socials{
+    display: flex;
+    gap: 30px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+/* footer done */
+
+/* services  */
+#serviceban{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/services.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#serviceban h5{
+    /* background: rgba(0,0,0,0.6); */
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.service1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service1 div{
+    width: 100%;
+}
+.service1 .img1{
+    display: flex;
+    justify-content: center;
+}
+.services{
+    padding: 5% 0%;
+}
+.services img{
+    height: 200px;
+}
+.service2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.service2 div{
+    width: 100%;
+}
+.service2 .img2{
+    display: flex;
+    justify-content: center;
+}
+.servecont{
+    background-color: whitesmoke;
+    padding: 5% 0%;
+}
+.servecont img{
+    height: 200px;
+}
+.servecont2{
+    background-color: #E816060A;
+    padding: 10% 0%;
+}
+.servecont2 img{
+    height: 200px;
+}
+/* services done */
+
+/* about  */
+#aboutban{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/about.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#aboutban h5{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+.whocont{
+    padding: 5% 0% 10%;
+}
+.whocont h1{
+    text-align: center;
+}
+.whoflex{
+    display: flex;
+    justify-content: space-between;
+}
+.whoflex img{
+    height: 300px;
+}
+.whoflex div{
+    width: 100%;
+}
+.whatcont{
+    padding: 5% 0% 10%;
+    background-color: #E816060A;
+}
+.whatcont h1{
+    text-align: center;
+}
+/* about done */
+
+/* contact */
+#contactban{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/contact.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#contactban h5{
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+#contactban p{
+    color: white;
+}
+.contact{
+    padding: 5% 0% 10%;
+}
+.contact form{
+    width: 50%;
+    margin: 0% auto;
+}
+.contact .buttn{
+    text-align: center;
+}
+.buttn button{
+    border: 1px solid #E81606;
+    padding: 5px 30px;
+    color: #E81606;
+}
+.buttn button:hover{
+    background-color: #E81606;
+    border: none;
+    color: white;
+}
+.contact input:focus{
+    border: 1px solid #E81606;
+    outline: none !important;
+}
+.contact textarea:focus{
+    border: 1px solid #E81606;
+    outline: none !important;
+}
+/* contact done */
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .header img{
+        height: 20px;
+    }
+    .inffo p{
+        font-size: 13px;
+    }
+    #banner{
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url(../img/tmkg_banner.jpg);
+        height: 60vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+    }
+    .bancont{
+        color: white;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .bancont h4{
+        font-size: 30px;
+    }
+    .bancont p{
+        font-size: 12px;
+    }
+    .bancont button{
+        padding: 10px 20px;
+        border-radius: 50px !important;
+        color: #E81606;
+        border: 1px solid #E81606;
+        margin-top: 5%;
+        background-color: white !important;
+        font-size: 12px;
+    }
+    .navbar-nav{
+        margin-right: auto !important;
+    }
+    .whatflex{
+        display: flex;
+        flex-direction: column;
+    }
+    .offer{
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .whyinfo{
+        display: flex;
+        flex-wrap: wrap;
+        height: 35vh;
+        margin-top: 5%;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .whyinfo h6{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .whyinfo div{
+        width: 40%;
+        /* margin: 5px; */
+    }
+    .whyitem{
+        align-self: normal;
+    }
+    .whywork{
+        margin-top: 40%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .whywork span{
+        font-size: 20px;
+    }
+    .whywork button{
+        font-size: 12px;
+        padding: 10px 30px;
+        border-radius: 50px;
+        border: none;
+        background-color: #E81606;
+        color: white;
+    }
+    #foota{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        align-items: center;
+        text-align: center;
+        color: white;
+        padding: 15px 50px;
+    }
+    #foota p{
+        font-size: 15px;
+    }
+    .socials{
+        display: flex;
+        gap: 30px;
+    }
+    .socials a{
+        text-decoration: none;
+        color: white;
+    }
+    #serviceban{
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/services.jpg);
+        height: 20vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    #serviceban h5{
+        /* background: rgba(0,0,0,0.6); */
+        width: 100%;
+        color: white;
+        font-size: 20px;
+    }
+    .service1{
+        display: flex;
+        flex-direction: column;
+    }
+    .service1 div{
+        width: 100%;
+    }
+    .service1 img{
+        height: 150px !important;
+    }
+    .postcont{
+        margin-top: 10%;
+    }
+    .postcont h4{
+        text-align: center;
+    }
+    .postcont p{
+        font-size: 15px;
+    }
+    .services{
+        padding: 5% 0%;
+    }
+    .services img{
+        height: 200px;
+    }
+    .service2{
+        display: flex;
+        flex-direction: column;
+    }
+    .service2 div{
+        width: 100%;
+    }
+    .service2 img{
+        height: 150px !important;
+    }
+    .transcont{
+        margin-top: 10%;
+    }
+    .transcont h4{
+        text-align: center;
+    }
+    .transcont p{
+        font-size: 15px;
+    }
+    .transcont ul{
+        font-size: 15px;
+    }
+    .servecont img{
+        height: 150px;
+    }
+    .servecont2 img{
+        height: 150px;
+    }
+    .cinecont{
+        margin-top: 10%;
+    }
+    .cinecont h4{
+        text-align: center;
+    }
+    .cinecont p{
+        font-size: 15px;
+    }
+    .outcont{
+        margin-top: 10%;
+    }
+    .outcont h4{
+        text-align: center;
+    }
+    .outcont p{
+        font-size: 15px;
+    }
+    .geocont{
+        margin-top: 10%;
+    }
+    .geocont h4{
+        text-align: center;
+    }
+    .geocont p{
+        font-size: 15px;
+    }
+    #aboutban{
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/about.jpg);
+        height: 20vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    #aboutban h5{
+        width: 100%;
+        color: white;
+        font-size: 20px;
+    }
+    .whoflex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .whoflex .imgg{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .whoflex img{
+        height: 150px;
+    }
+    .whoflex div{
+        width: 100%;
+    }
+    .whatcont{
+        padding: 5% 0% 10%;
+        background-color: #E816060A;
+    }
+    #contactban{
+        background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/contact.jpg);
+        height: 20vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    #contactban h5{
+        width: 100%;
+        color: white;
+        font-size: 20px;
+    }
+    #contactban p{
+        color: white;
+        font-size: 12px;
+    }
+    .contact{
+        padding: 5% 0% 10%;
+    }
+    .contact form{
+        width: 90%;
+        margin: 0% auto;
+    }
+    .contact .buttn{
+        text-align: center;
+    }
+    .buttn button{
+        border: 1px solid #E81606;
+        padding: 5px 30px;
+        color: #E81606;
+    }
+    .buttn button:hover{
+        background-color: #E81606;
+        border: none;
+        color: white;
+    }
+    .contact input:focus{
+        border: 1px solid #E81606;
+        outline: none !important;
+    }
+    .contact textarea:focus{
+        border: 1px solid #E81606;
+        outline: none !important;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1023px) {
+    .bancont{
+        color: white;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .bancont h4{
+        font-size: 50px;
+    }
+    .bancont p{
+        font-size: 15px;
+    }
+    .navbar-nav{
+        margin-right: auto !important;
+    }
+    .whatflex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .offer{
+        text-align: center;
+        background-color: white;
+        border-radius: 20px;
+        padding: 25px;
+        width: 45%;
+        margin-bottom: 10px;
+    }
+    .whoflex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .whoflex img{
+        height: 200px;
+    }
+    
+}
